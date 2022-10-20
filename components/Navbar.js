@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
   //const [nv, setNv] = useState(true);
@@ -10,7 +11,7 @@ const Navbar = () => {
     
           <nav className="flex flex-wrap items-center justify-between bg-blue-800 w-full p-3 z-10 top-0 ">
             <div className="flex flex-row items-center flex-shrink-0 text-white">
-              <a href="#"> <img className="h-8 w-40" src="/assets/img/logo.png" alt="Олонлог эгзэ сургууль"/></a>
+              <a href="#"> <Image className="h-8 w-40" src="/assets/img/logo.png" alt="Олонлог эгзэ сургууль"/></a>
               {/* <a className="uppercase pl-3 font-medium text-2xl" ></a> */}
             </div>
             {/* Menu toggle button */}

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -8,11 +9,10 @@ const Navbar = () => {
         {/* Navbar start */}
         <nav className="flex flex-wrap items-center justify-between bg-gray-800 w-full p-6 z-10 top-0 bg-opacity-50">
           <div className="flex flex-row items-center flex-shrink-0 text-white">
-            <img
+            <Image
               className="h-8 w-8"
               src="img/logos/irmuundigital-logo.png"
-              alt
-            />
+                          />
             <a className="uppercase pl-3 font-medium text-2xl" href="#">
               Irmuun Digital
             </a>
@@ -76,10 +76,9 @@ const Navbar = () => {
         {/* Navbar end */}
         {/* Hero start */}
         <div className="hero absolute inset-0 sm:hidden">
-          <img
+          <Image
             src="img/witcher.jpg"
-            className="w-full h-full object-cover object-center"
-            alt
+            className="w-full h-full object-cover object-center"          
           />
         </div>
         <div className="hero absolute hidden inset-0 sm:block">
