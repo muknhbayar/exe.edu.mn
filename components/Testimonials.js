@@ -6,8 +6,8 @@ const Testimonials = () => {
   <div className="carousel-inner relative w-full overflow-hidden">
     <div className="carousel-item active relative float-left w-full text-center">
       <p className="text-xl italic mx-auto text-gray-700 max-w-4xl">
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-        numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+        numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!
       </p>
       <div className="mt-12 mb-6 flex justify-center">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" className="rounded-full w-24 h-24 shadow-lg" alt="smaple image" />
@@ -16,9 +16,9 @@ const Testimonials = () => {
     </div>
     <div className="carousel-item relative float-left w-full text-center">
       <p className="text-xl italic mx-auto text-gray-700 max-w-4xl">
-        "Neque cupiditate assumenda in maiores repudiandae mollitia adipisci maiores
+        Neque cupiditate assumenda in maiores repudiandae mollitia adipisci maiores
         repudiandae mollitia consectetur adipisicing architecto elit sed adipiscing
-        elit."
+        elit.
       </p>
       <div className="mt-12 mb-6 flex justify-center">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp" className="rounded-full w-24 h-24 shadow-lg" alt="smaple image" />
@@ -27,9 +27,9 @@ const Testimonials = () => {
     </div>
     <div className="carousel-item relative float-left w-full text-center pt-8">
       <p className="text-xl italic mx-auto text-gray-700 max-w-4xl">
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
         dolore eu fugiat nulla pariatur est laborum neque cupiditate assumenda in
-        maiores."
+        maiores.
       </p>
       <div className="mt-12 mb-6 flex justify-center">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" className="rounded-full w-24 h-24 shadow-lg" alt="smaple image" />

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const News = () => {
   return (
@@ -12,7 +13,7 @@ const News = () => {
     
     <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 uppercase font-light">
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" style={{backgroundPosition: '50%'}} data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <img src="/assets/img/news/spartikad.jpg" className="w-full h-56" />
+        <Image src="/assets/img/news/spartikad.jpg" className="w-full h-56" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>
             <div className="flex justify-start items-end h-full">
@@ -27,12 +28,12 @@ const News = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <img src="/assets/img/news/haruulzangi.jpg" className="w-full h-56" />
+        <Image src="/assets/img/news/haruulzangi.jpg" className="w-full h-56" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>
             <div className="flex justify-start items-end h-full">
               <div className="text-white m-6">
-                <h5 className="text-md mb-3">"Харуул занги-2022" тэмцээнд манай сургуулийн хоёр баг амжилттай оролцож дараагийн шатанд шалгарлаа. </h5>
+                <h5 className="text-md mb-3">&quot;Харуул занги-2022&ldquo; тэмцээнд манай сургуулийн хоёр баг амжилттай оролцож дараагийн шатанд шалгарлаа. </h5>
                 <p>
                   <small> <u>12.01.2022</u> &emsp; ОЛИМПИАД УРАЛДААН ТЭМЦЭЭН</small>
                 </p>
@@ -42,7 +43,7 @@ const News = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <img src="/assets/img/news/child.jpg" className="w-full h-56" />
+        <Image src="/assets/img/news/child.jpg" className="w-full h-56" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 20, 0.4)'}}>
             <div className="flex justify-start items-end h-full">
@@ -57,11 +58,11 @@ const News = () => {
         </a>
       </div>
       <div className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg" data-mdb-ripple="true" data-mdb-ripple-color="light">
-        <img src="/assets/img/news/top15.jpg" className="w-full h-56" />
+        <Image src="/assets/img/news/top15.jpg" className="w-full h-56" />
         <a href="#!">
           <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style={{backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>
             <div className="flex justify-start items-end h-full">
-              <div className="text-white m-6">
+              <div cslassName="text-white m-6">
                 <h5 className="text-md mb-3">Олонлог эгзэ сургууль 2021-2022 оны хичээлийн жилийн амжилтаараа ТОП-15 сургуулийн нэгээр шалгарлаа.</h5>
                 <p>
                   <small> <u>09.01.2022</u> &emsp; БШУСЯ-НЫ МЭДЭЭ</small>
