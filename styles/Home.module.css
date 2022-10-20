@@ -108,6 +108,31 @@
   margin-left: 0.5rem;
 }
 
+.overlay--container:hover .overlay-on-hover--nursery {
+  background-color: rgba(255,163,0,.8);
+  opacity: 1;
+  z-index: 0;
+}
+
+.overlay-on-hover--full {
+  background: transparent;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  z-index: -2;
+}
+
+
+.program {
+
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
